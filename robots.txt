@@ -1,0 +1,4 @@
+Sitemap: https://compiler-dev-journal.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: compiler-dev-journal.github.io
