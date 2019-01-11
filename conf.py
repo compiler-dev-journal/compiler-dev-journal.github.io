@@ -95,7 +95,7 @@ DEFAULT_LANG = "ru"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "en": "./en",
+    # "en": "./en",
 }
 
 # What will translated input files be named like?
