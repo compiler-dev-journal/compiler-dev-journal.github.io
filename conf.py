@@ -16,7 +16,7 @@ import time
 
 
 # Data about this site
-BLOG_TITLE = "Теория и практика разработки компиляторов"  # (translatable)
+BLOG_TITLE = "Языки и компиляторы"  # (translatable)
 BLOG_AUTHOR = BLOG_TITLE  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
@@ -25,7 +25,7 @@ SITE_URL = "https://compiler-dev-journal.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://compiler-dev-journal.github.io/"
 BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = "Журнал о практике разработки языков программирования и инструментальных средств к ним"
 
 # Nikola is multilingual!
 #
