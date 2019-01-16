@@ -5,6 +5,7 @@
 .. category:
 .. link:
 .. description:
+.. hidetitle: True
 .. type: text
 
 Миссия

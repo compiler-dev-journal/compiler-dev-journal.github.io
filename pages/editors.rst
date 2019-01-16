@@ -4,6 +4,7 @@
 .. tags:
 .. category:
 .. link:
+.. hidetitle: True
 .. description:
 .. type: text
 
