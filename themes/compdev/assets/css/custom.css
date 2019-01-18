@@ -1,5 +1,10 @@
+html {
+    font-size: 14px;
+}
+
 body {
-    font-size: 125%;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .blog-description {
