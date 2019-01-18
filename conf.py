@@ -25,7 +25,7 @@ SITE_URL = "https://compiler-dev-journal.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://compiler-dev-journal.github.io/"
 BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "Журнал о практике разработки языков программирования и инструментальных средств"
+BLOG_DESCRIPTION = "Практика разработки языков программирования и инструментальных средств"
 
 # Nikola is multilingual!
 #
