@@ -4,7 +4,7 @@
 
 <%def name="html_title()">
 %if title and not post.meta('hidetitle'):
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h1>
+    <h1 class="p-name entry-title" itemprop="headline name">${post.title()|h}</h1>
 %endif
 </%def>
 
@@ -39,13 +39,11 @@
                 % endif
             </span></p>
             <p class="dateline">
-            <a href="${post.permalink()}" rel="bookmark">
             <time class="published dt-published" datetime="${post.formatted_date('webiso')}" itemprop="datePublished" title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time>
             % if post.updated and post.updated != post.date:
                 <span class="updated"> (${messages("updated")}
                     <time class="updated dt-updated" datetime="${post.formatted_updated('webiso')}" itemprop="dateUpdated" title="${post.formatted_updated(date_format)|h}">${post.formatted_updated(date_format)|h}</time>)</span>
             % endif
-            </a>
             </p>
             % if not post.meta('nocomments') and site_has_comments:
                 <p class="commentline">${comments.comment_link(post.permalink(), post._base_path)}
