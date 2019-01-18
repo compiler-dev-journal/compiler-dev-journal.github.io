@@ -136,7 +136,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/pages/about/", "О журнале"),
-        ("/pages/editors/", "Редколлегия"),
+        ("/pages/authors/", "Авторам"),
+        # ("/pages/editors/", "Редколлегия"),
         ("/archive.html", "Архив"),
         ("/categories/", "Тэги"),
         ("/rss.xml", "RSS"),
