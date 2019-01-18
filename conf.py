@@ -25,7 +25,7 @@ SITE_URL = "https://compiler-dev-journal.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://compiler-dev-journal.github.io/"
 BLOG_EMAIL = "n.tesla@example.com"
-BLOG_DESCRIPTION = "Журнал о практике разработки языков программирования и инструментальных средств к ним"
+BLOG_DESCRIPTION = "Журнал о практике разработки языков программирования и инструментальных средств"
 
 # Nikola is multilingual!
 #
@@ -139,13 +139,7 @@ NAVIGATION_LINKS = {
         ("/pages/editors/", "Редколлегия"),
         ("/archive.html", "Архив"),
         ("/categories/", "Тэги"),
-        ("/rss.xml", "RSS лента"),
-    ),
-
-    "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/", "Tags"),
-        ("/en/rss.xml", "RSS feed"),
+        ("/rss.xml", "RSS"),
     ),
 }
 
