@@ -2,6 +2,10 @@ body {
     font-size: 125%;
 }
 
+.blog-description {
+  font-size: 1.25rem;
+}
+
 #footer {
     padding-bottom: 19px;
     text-align: center;
