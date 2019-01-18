@@ -13,8 +13,8 @@ ${template_hooks['extra_head']()}
 
 <!-- Header and menu bar -->
 <div class="container">
-    <header class="blog-header py-3">
-        <div class="row nbb-header align-items-center">
+    <header class="blog-header">
+        <div class="row nbb-header align-items-center pt-3 pb-1"">
             <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
                 <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@ ${template_hooks['extra_head']()}
                     </ul></nav>
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center pt-2 pb-3">
             <div class="col bootblog4-brand" style="width: auto">
                 % if show_blog_title:
                     <span class="blog-description">${blog_description|h}</span>
