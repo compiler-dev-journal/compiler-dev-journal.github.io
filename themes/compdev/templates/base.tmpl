@@ -15,7 +15,7 @@ ${template_hooks['extra_head']()}
 <div class="container pb-2">
     <header class="blog-header">
         <div class="row nbb-header align-items-center pt-3 pb-1"">
-            <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <div class="col-md-2 col-xs-2 col-sm-2" style="width: auto;">
                 <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -23,7 +23,7 @@ ${template_hooks['extra_head']()}
                     ${search_form}
                 </div>
             </div>
-            <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <div class="col-md-8 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
                 <a class="navbar-brand blog-header-logo text-dark" href="${abs_link(_link("root", None, lang))}">
                     %if logo_url:
                         <img src="${logo_url}" alt="${blog_title|h}" id="logo" class="d-inline-block align-top">
@@ -34,7 +34,7 @@ ${template_hooks['extra_head']()}
                     % endif
                 </a>
             </div>
-            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <div class="col-md-2 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
                 <nav class="navbar navbar-light bg-white">
                     <ul class="navbar-nav bootblog4-right-nav">
                         ${base.html_navigation_links_entries(navigation_alt_links)}
