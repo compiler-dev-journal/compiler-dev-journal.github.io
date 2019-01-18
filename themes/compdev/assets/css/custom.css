@@ -7,8 +7,14 @@ body {
     margin: 0 auto;
 
 }
+
 .blog-description {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
+}
+
+/* Reset bootstrap defaults */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
 }
 
 #footer {
