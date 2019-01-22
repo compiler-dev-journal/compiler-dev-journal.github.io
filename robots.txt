@@ -1,4 +1,4 @@
-Sitemap: https://plcomp.github.io/sitemapindex.xml
+Sitemap: https://plcomp.org/sitemapindex.xml
 
 User-Agent: *
-Host: plcomp.github.io
+Host: plcomp.org

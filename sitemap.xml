@@ -6,31 +6,31 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://plcomp.github.io/</loc>
+  <loc>https://plcomp.org/</loc>
+  <lastmod>2019-01-22T12:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://plcomp.org/2019/</loc>
   <lastmod>2019-01-18T14:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://plcomp.github.io/2019/</loc>
+  <loc>https://plcomp.org/archive.html</loc>
+  <lastmod>2019-01-22T12:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://plcomp.org/categories/</loc>
   <lastmod>2019-01-18T14:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://plcomp.github.io/archive.html</loc>
-  <lastmod>2019-01-22T11:15:00Z</lastmod>
- </url>
- <url>
-  <loc>https://plcomp.github.io/categories/</loc>
+  <loc>https://plcomp.org/pages/about/</loc>
   <lastmod>2019-01-18T14:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://plcomp.github.io/pages/about/</loc>
+  <loc>https://plcomp.org/pages/authors/</loc>
   <lastmod>2019-01-18T14:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://plcomp.github.io/pages/authors/</loc>
-  <lastmod>2019-01-18T14:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://plcomp.github.io/posts/interpretatory-bait-kodov-svoimi-rukami/</loc>
+  <loc>https://plcomp.org/posts/interpretatory-bait-kodov-svoimi-rukami/</loc>
   <lastmod>2019-01-18T14:51:00Z</lastmod>
  </url>
 </urlset>
