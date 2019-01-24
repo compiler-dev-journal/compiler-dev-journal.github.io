@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Таблицы и формулы | Языки и компиляторы</title>
+<link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bootblog.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://plcomp.org/posts/proverka-tablits-i-formul/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Языки и компиляторы">
+<link rel="prev" href="../interpretatory-bait-kodov-svoimi-rukami/" title="Интерпретаторы байт-кодов своими руками" type="text/html">
+<meta property="og:site_name" content="Языки и компиляторы">
+<meta property="og:title" content="Таблицы и формулы">
+<meta property="og:url" content="https://plcomp.org/posts/proverka-tablits-i-formul/">
+<meta property="og:description" content="Демонстрация таблиц и формул.
+
+
+Язык разметки
+Для языка разметки типа Markdown в генераторе статических сайтов Nikola
+используется пакет Python-Markdown. Для журнала мы используем
+следущие расширения:">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2019-01-24T11:18:57+03:00">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Перейти к главному содержимому</a>
+
+<!-- Header and menu bar -->
+<div class="container pb-2">
+    <header class="blog-header"><div class="row nbb-header align-items-center pt-3 pb-1">
+            <div class="col-md-2 col-xs-2 col-sm-2" style="width: auto;">
+                <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                    
+                </div>
+            </div>
+            <div class="col-md-8 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+                <a class="navbar-brand blog-header-logo text-dark" href="https://plcomp.org/">
+
+                        <span id="blog-title">Языки и компиляторы</span>
+                </a>
+            </div>
+            <div class="col-md-2 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+                <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav"></ul></nav>
+</div>
+        </div>
+        <div class="row align-items-center pt-2 pb-3">
+            <div class="col bootblog4-brand" style="width: auto">
+                    <span class="blog-description">Теория и практика разработки языков программирования и инструментальных средств</span>
+            </div>
+        </div>
+    </header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../../pages/about/" class="nav-link">О журнале</a>
+                </li>
+<li class="nav-item">
+<a href="../../pages/authors/" class="nav-link">Авторам</a>
+                </li>
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">Архив</a>
+                </li>
+<li class="nav-item">
+<a href="../../categories/" class="nav-link">Тэги</a>
+                </li>
+<li class="nav-item">
+<a href="../../rss.xml" class="nav-link">RSS</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+    </nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name">Таблицы и формулы</h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                    Языки и компиляторы
+            </span></p>
+            <p class="dateline">
+            <time class="published dt-published" datetime="2019-01-24T11:18:57+03:00" itemprop="datePublished" title="2019-01-24 11:18">2019-01-24 11:18</time></p>
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>Демонстрация таблиц и формул.</p>
+<!-- TEASER_END -->
+
+<h2>Язык разметки</h2>
+<p>Для языка разметки типа Markdown в генераторе статических сайтов <a href="getnikola.com">Nikola</a>
+используется пакет <a href="https://python-markdown.github.io">Python-Markdown</a>. Для журнала мы используем
+следущие расширения: markdown.extensions.fenced_code, markdown.extensions.codehilite,
+markdown.extensions.extra.</p>
+<h2>Таблицы</h2>
+<p>Расширение extra включает в себя возможность создавать таблицы из диалекта <a href="https://michelf.ca/projects/php-markdown/extra/#table">PHP Markdown
+Extra</a>.</p>
+<p>Пример таблички:</p>
+<table>
+<thead><tr>
+<th align="left">Заголовок 1, выравнивание влево</th>
+<th align="right">Заголовок 2, выравнивание вправо</th>
+<th align="center">Заголовок 3, выравнивание по центру</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="left">первый ряд</td>
+<td align="right">первый ряд, вторая колонка</td>
+<td align="center">первый ряд, третья колонка</td>
+</tr>
+<tr>
+<td align="left">второй ряд</td>
+<td align="right">второй ряд, вторая колонка</td>
+<td align="center">второй ряд, третья колонка</td>
+</tr>
+</tbody>
+</table>
+<p>Естественно, что отображение таблиц можно регулировать в CSS.</p>
+<h2>Формулы</h2>
+<p>Для отображения формул можно использовать JavaScript пакеты MathJax или <a href="https://katex.org">KaTex</a>.
+Я выбрал более современный KaTex, но при наличии проблем можно будет безболезненно перейти на
+MathJax. Оба пакета опираются на TeX для отображения формул, но поддерживают только подмножество его
+возможностей.</p>
+<p>Итак, несложная формула прямо в тексте:  \(\int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C\).</p>
+<p>То же самое отдельным блоком:</p>
+<p>\[\int \frac{dx}{1+ax}=\frac{1}{a}\ln(1+ax)+C\]</p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../interpretatory-bait-kodov-svoimi-rukami/" rel="prev" title="Интерпретаторы байт-кодов своими руками">Предыдущая запись</a>
+            </li>
+        </ul></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        delimiters: [
+                            {left: "$$", right: "$$", display: true},
+                            {left: "\\[", right: "\\]", display: true},
+                            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+                            {left: "\\(", right: "\\)", display: false}
+                        ]
+                    }
+                );
+            </script></article><!--End of body content--><footer id="footer">
+            © 2019         «<a href="mailto:plcomp@plcomp.org">Языки и компиляторы</a>»
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/jquery.min.js"></script><script src="../../assets/js/popper.min.js"></script><script src="../../assets/js/bootstrap.min.js"></script><script src="../../assets/js/baguetteBox.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.min.js"></script><!-- fancy dates --><script>
+    moment.locale("ru");
+    fancydates(2, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>
