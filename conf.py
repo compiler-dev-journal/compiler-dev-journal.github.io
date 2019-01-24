@@ -24,7 +24,7 @@ SITE_URL = "https://plcomp.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://compiler-dev-journal.github.io/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = "plcomp@plcomp.org"
 BLOG_DESCRIPTION = "Теория и практика разработки языков программирования и инструментальных средств"
 
 # Nikola is multilingual!
