@@ -137,7 +137,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/pages/about/", "О журнале"),
         ("/pages/authors/", "Авторам"),
-        ("/pages/editors/", "Редколлегия"),
+        # ("/pages/editors/", "Редколлегия"),
         ("/archive.html", "Архив"),
         # ("/categories/", "Тэги"),
         ("/rss.xml", "RSS"),
