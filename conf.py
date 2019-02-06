@@ -140,6 +140,7 @@ NAVIGATION_LINKS = {
         ("/pages/editors/", "Редколлегия"),
         ("/archive.html", "Архив"),
         # ("/categories/", "Тэги"),
+        ("/rss.xml", "RSS"),
     ),
 }
 
